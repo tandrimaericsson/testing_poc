@@ -12,7 +12,7 @@ public class TricentisAppTest extends WithBrowserTest {
 
     @Parameters({"email", "password"})
     @Test
-    public void testApp(String email, String password) {
+    public void verifyTheCheckoutFunctionality(String email, String password) {
         final String notificationText = "The product has been added to your shopping cart";
         final String billingAddress = "planit test, madhapur, Hyderabad 500017, India";
         final String checkoutInformation = "You will pay by COD";
